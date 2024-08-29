@@ -15,7 +15,7 @@ class VolleyViewModel : ViewModel(){
     val namesList: StateFlow<List<String>> = _namesList
 
     fun VolleyFetchData(context: Context){
-     val BASE_URL ="https://pixabay.com/api/?key=44458636-9abcb479d380e306f9cae994e&q=yellow+flowers&image_type=photo&pretty=true"
+     val BASE_URL ="https://pixabay.com/api/?key=********&q=yellow+flowers&image_type=photo&pretty=true"
      val requestQueue = Volley.newRequestQueue(context)
         val namesList = mutableListOf<String>()
         val jsonArrayRequest = JsonObjectRequest(
